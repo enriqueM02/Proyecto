@@ -1,0 +1,3 @@
+nickname            Puntuacion 
+Omar                100
+Enrique             50

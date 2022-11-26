@@ -5,7 +5,7 @@ int main(){
     int cont = 0; 
     char carater; 
 
-    file *fp
+    file *fp;
 
     while (1)
     {
