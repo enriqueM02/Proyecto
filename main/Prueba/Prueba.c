@@ -38,6 +38,9 @@ void agregar(){
     int opcion;
     char palabra_nueva[50]; //Variable donde se guarda la palabra
 
+    system("cls");
+
+
     FILE *f; //Se crea la variable del fichero 
 
     f = fopen("Frutas.txt", "a"); // Linea para abrir el fichero, se abre en modo "a" que es para añadir datos al final
@@ -77,6 +80,7 @@ int main(){
 int opcion;
 
 do{
+    system("cls");
 printf("\n\t\t\t\tJUEGO EL AHORCADO\n\n");
 	printf(" MENU\n\n");
 	printf(" 1. Jugar\n");
@@ -85,12 +89,14 @@ printf("\n\t\t\t\tJUEGO EL AHORCADO\n\n");
     printf(" 4. Salir\n");
 	printf(" Ingresa una opcion: ");
     scanf("%i", &opcion);
-       
-}while(opcion<1 || opcion>3);
 
         if (opcion==1);
 	    if (opcion==2) tabla();
 	    if (opcion==3) agregar();
+       
+}while(opcion != 4);
+
+        
 
     system ("pause");
     printf("ADIOS");
