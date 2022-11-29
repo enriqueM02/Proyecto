@@ -1,3 +1,5 @@
+TABLA DE POSICION DE DIFICULTADA FACIL
+
 Nickname            Puntuacion 
 Omar                100
 Enrique             50

@@ -1,0 +1,5 @@
+TABLA DE POSICION DE DIFICULTAD MEDIA
+
+Nickname            Puntuacion 
+Omar                100
+Enrique             50
